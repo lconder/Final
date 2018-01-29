@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "13i-3P-7FQ"; */
+"13i-3P-7FQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2oo-3K-qYt"; */
+"2oo-3K-qYt.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "JdG-gk-JuL"; */
+"JdG-gk-JuL.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "OMITIR"; ObjectID = "Pt0-7d-qdO"; */
+"Pt0-7d-qdO.normalTitle" = "OMITIR";
+
+/* Class = "UILabel"; text = "Touch ID"; ObjectID = "kuX-jh-OGs"; */
+"kuX-jh-OGs.text" = "Touch ID";
+
+/* Class = "UILabel"; text = "Touch ID"; ObjectID = "pfg-QF-fzj"; */
+"pfg-QF-fzj.text" = "Touch ID";
+
+/* Class = "UILabel"; text = "Cámara"; ObjectID = "ypX-HT-GfV"; */
+"ypX-HT-GfV.text" = "Cámara";
