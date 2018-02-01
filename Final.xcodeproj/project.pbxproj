@@ -12,10 +12,18 @@
 		8919376D201CCE9500CDEFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8919376B201CCE9500CDEFA9 /* Main.storyboard */; };
 		8919376F201CCE9500CDEFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8919376E201CCE9500CDEFA9 /* Assets.xcassets */; };
 		89193772201CCE9500CDEFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89193770201CCE9500CDEFA9 /* LaunchScreen.storyboard */; };
+		896313EA202207CD001D05A2 /* SOAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896313E9202207CD001D05A2 /* SOAPViewController.swift */; };
+		897D6E352022948C00292034 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D6E342022948C00292034 /* Contact.swift */; };
+		897D6E37202294E400292034 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D6E36202294E400292034 /* ContactCell.swift */; };
 		898F6A11201F6E0B00EBBDC1 /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F6A10201F6E0B00EBBDC1 /* FacebookLoginViewController.swift */; };
 		899A2470201CF8E600C27811 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A246F201CF8E600C27811 /* FirstViewController.swift */; };
 		899A2472201D053000C27811 /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A2471201D053000C27811 /* TouchIDViewController.swift */; };
 		899A2474201D0F0D00C27811 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A2473201D0F0D00C27811 /* CameraViewController.swift */; };
+		89C90CCB2020B7BC00D46640 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89C90CCD2020B7BC00D46640 /* Localizable.strings */; };
+		89C90CD02020B85200D46640 /* LocalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C90CCF2020B85200D46640 /* LocalizedViewController.swift */; };
+		89C90CD32020BC1200D46640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89C90CD52020BC1200D46640 /* InfoPlist.strings */; };
+		89C90CD82020C01700D46640 /* RESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C90CD72020C01700D46640 /* RESTViewController.swift */; };
+		89C90CDA2020C19800D46640 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C90CD92020C19800D46640 /* Constants.swift */; };
 		AE183D0BF986871ED101ACC6 /* Pods_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EAB9DA769E34BAC66DC37F /* Pods_Final.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,12 +36,22 @@
 		8919376E201CCE9500CDEFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89193771201CCE9500CDEFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89193773201CCE9500CDEFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896313E9202207CD001D05A2 /* SOAPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOAPViewController.swift; sourceTree = "<group>"; };
+		897D6E342022948C00292034 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		897D6E36202294E400292034 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		898F6A10201F6E0B00EBBDC1 /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
 		899A246F201CF8E600C27811 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		899A2471201D053000C27811 /* TouchIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
 		899A2473201D0F0D00C27811 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		89ED0DFF201D8F02008D831A /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
-		89ED0E00201D8F03008D831A /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		89C90CC72020B69500D46640 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		89C90CC82020B69500D46640 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		89C90CCC2020B7BC00D46640 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		89C90CCE2020B7C600D46640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89C90CCF2020B85200D46640 /* LocalizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedViewController.swift; sourceTree = "<group>"; };
+		89C90CD42020BC1200D46640 /* es-MX */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		89C90CD62020BC1800D46640 /* Base */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89C90CD72020C01700D46640 /* RESTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTViewController.swift; sourceTree = "<group>"; };
+		89C90CD92020C19800D46640 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		99EAB9DA769E34BAC66DC37F /* Pods_Final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA863E39744E89FDF1E5524 /* Pods-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final/Pods-Final.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,10 +112,18 @@
 				899A2471201D053000C27811 /* TouchIDViewController.swift */,
 				899A2473201D0F0D00C27811 /* CameraViewController.swift */,
 				898F6A10201F6E0B00EBBDC1 /* FacebookLoginViewController.swift */,
+				89C90CCF2020B85200D46640 /* LocalizedViewController.swift */,
+				89C90CD72020C01700D46640 /* RESTViewController.swift */,
+				896313E9202207CD001D05A2 /* SOAPViewController.swift */,
+				89C90CD92020C19800D46640 /* Constants.swift */,
 				8919376B201CCE9500CDEFA9 /* Main.storyboard */,
 				8919376E201CCE9500CDEFA9 /* Assets.xcassets */,
 				89193770201CCE9500CDEFA9 /* LaunchScreen.storyboard */,
 				89193773201CCE9500CDEFA9 /* Info.plist */,
+				89C90CCD2020B7BC00D46640 /* Localizable.strings */,
+				89C90CD52020BC1200D46640 /* InfoPlist.strings */,
+				897D6E342022948C00292034 /* Contact.swift */,
+				897D6E36202294E400292034 /* ContactCell.swift */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -166,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89193772201CCE9500CDEFA9 /* LaunchScreen.storyboard in Resources */,
+				89C90CCB2020B7BC00D46640 /* Localizable.strings in Resources */,
 				8919376F201CCE9500CDEFA9 /* Assets.xcassets in Resources */,
 				8919376D201CCE9500CDEFA9 /* Main.storyboard in Resources */,
+				89C90CD32020BC1200D46640 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,12 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897D6E37202294E400292034 /* ContactCell.swift in Sources */,
+				89C90CD82020C01700D46640 /* RESTViewController.swift in Sources */,
 				899A2470201CF8E600C27811 /* FirstViewController.swift in Sources */,
+				89C90CD02020B85200D46640 /* LocalizedViewController.swift in Sources */,
+				896313EA202207CD001D05A2 /* SOAPViewController.swift in Sources */,
 				899A2474201D0F0D00C27811 /* CameraViewController.swift in Sources */,
 				898F6A11201F6E0B00EBBDC1 /* FacebookLoginViewController.swift in Sources */,
+				897D6E352022948C00292034 /* Contact.swift in Sources */,
 				899A2472201D053000C27811 /* TouchIDViewController.swift in Sources */,
 				8919376A201CCE9500CDEFA9 /* ViewController.swift in Sources */,
 				89193768201CCE9500CDEFA9 /* AppDelegate.swift in Sources */,
+				89C90CDA2020C19800D46640 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +276,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8919376C201CCE9500CDEFA9 /* Base */,
-				89ED0DFF201D8F02008D831A /* es-MX */,
+				89C90CC72020B69500D46640 /* es-MX */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -251,9 +285,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				89193771201CCE9500CDEFA9 /* Base */,
-				89ED0E00201D8F03008D831A /* es-MX */,
+				89C90CC82020B69500D46640 /* es-MX */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89C90CCD2020B7BC00D46640 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C90CCC2020B7BC00D46640 /* es-MX */,
+				89C90CCE2020B7C600D46640 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		89C90CD52020BC1200D46640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C90CD42020BC1200D46640 /* es-MX */,
+				89C90CD62020BC1800D46640 /* Base */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

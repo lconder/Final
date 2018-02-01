@@ -13,6 +13,10 @@ target 'Final' do
     pod 'FBSDKLoginKit', '~> 4.22.1'
     pod 'FBSDKShareKit', '~> 4.22.1'
     pod 'KFSwiftImageLoader', '~> 3.0'
-
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'SWXMLHash', '3.0.3'
+    pod 'StringExtensionHTML'
+    pod 'AEXML'
 
 end

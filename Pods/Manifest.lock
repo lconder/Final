@@ -1,4 +1,6 @@
 PODS:
+  - AEXML (4.2.2)
+  - Alamofire (4.6.0)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
@@ -26,8 +28,13 @@ PODS:
   - FBSDKShareKit (4.22.1):
     - FBSDKCoreKit
   - KFSwiftImageLoader (3.0.0)
+  - StringExtensionHTML (0.2.0)
+  - SwiftyJSON (4.0.0)
+  - SWXMLHash (3.0.3)
 
 DEPENDENCIES:
+  - AEXML
+  - Alamofire
   - BWWalkthrough
   - FacebookCore (~> 0.2)
   - FacebookLogin (~> 0.2)
@@ -36,8 +43,13 @@ DEPENDENCIES:
   - FBSDKLoginKit (~> 4.22.1)
   - FBSDKShareKit (~> 4.22.1)
   - KFSwiftImageLoader (~> 3.0)
+  - StringExtensionHTML
+  - SwiftyJSON
+  - SWXMLHash (= 3.0.3)
 
 SPEC CHECKSUMS:
+  AEXML: 5ebafc1b75e0bcf0f1b09b8ca8fed2d5a199479b
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   BWWalkthrough: 6b18dc688ff6b7168383fee07fe199ccaad7e9f7
   FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
@@ -47,7 +59,10 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 00cf28916b9f0169763a3d61985d745b579fe304
   FBSDKShareKit: 1cbd0fdc2bb3277dd3522512855dcf1f4088f734
   KFSwiftImageLoader: c4656d614329480308b190c2b6f15015a4018ffc
+  StringExtensionHTML: 80fdb1b3a83669e371d27bfe2f208f067e2db328
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SWXMLHash: 80d2529d74891bb2f15305a0b9e08f2a4f229ee7
 
-PODFILE CHECKSUM: 78323a2cf73d01132274d641b307e87b0c28bd29
+PODFILE CHECKSUM: 50629193fce188898b0ea3e6b58affd2c63de51e
 
 COCOAPODS: 1.2.0
